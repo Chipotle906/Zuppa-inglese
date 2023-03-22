@@ -27,7 +27,7 @@ ul {
 	background-color: #df9fbf;
 	margin: 0;
 }
-li {
+nav li {
 	list-style-type: none;
 	display: inline-block;
 	padding: 6px 8px 6px 8px;
@@ -36,7 +36,7 @@ li {
 li:hover {
 	background-color: #ecc6d9;
 }
-a {
+nav a {
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -51,6 +51,16 @@ main {
 	max width: 700px;
 	margin: 15px auto;
 	text-align: center;
+}
+/********************* GALLERY NEI VIAGGI *********************/
+#viaggi img {
+	width: 0%;
+}
+
+#viaggi li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
 }
 
 /********************  GALLERY NELLA HOME ********************/
