@@ -23,7 +23,7 @@ h2 {
 }
 
 /*********************** NAV *************************/
-ul {
+nav ul {
 	background-color: #df9fbf;
 	margin: 0;
 }
@@ -53,16 +53,20 @@ main {
 	text-align: center;
 }
 /********************* GALLERY NEI VIAGGI *********************/
-#viaggi img {
-	width: 0%;
+ul img {
+	width: 50%;
+	max-width: 400px;
+}
+#viaggi ul {
+	background-color: #df9fbf;
+	padding:0;
 }
 
 #viaggi li {
 	list-style-type: none;
+	padding: 6px 6px 6px 6px;
 	display: inline-block;
-	padding: 6px 8px 6px 8px;
 }
-
 /********************  GALLERY NELLA HOME ********************/
 
 #gallery img {
