@@ -1,0 +1,72 @@
+/*********************** GENERAL *************************/
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	}
+
+/*********************** HEADER *************************/
+header {
+	text-align: center;
+}
+header img {
+	width: 100%;
+}
+h2 {
+	color: #df9fbf;
+	font-size: 2rem;
+	padding: 6px;
+	background-color: #f2d9e6;
+	margin: 0;
+}
+
+/*********************** NAV *************************/
+ul {
+	background-color: #df9fbf;
+	margin: 0;
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+	font-size: 1.5rem;
+}
+li:hover {
+	background-color: #ecc6d9;
+}
+a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*********************** MAIN IN TUTTE ******************/
+main {
+	font-size: 1.4rem;
+}
+
+.container {
+	width: 70%;
+	max width: 700px;
+	margin: 15px auto;
+}
+
+/********************  GALLERY NELLA HOME ********************/
+
+#gallery img {
+	width: 32%;
+}
+#gallery {
+	margin: 15px 5px 15px 5px;
+}
+
+
+/************************* FOOTER **********************/
+.social {
+	text-align: center;
+	margin-top: 15px;
+}
+.social a {
+	padding: 8px 10px 8px 10px;
+}
