@@ -1,4 +1,8 @@
 /*********************** GENERAL *************************/
+* {
+	box-sizing:border-box ;
+}
+
 html {
 	font-size: 62.5%;
 }
@@ -53,22 +57,48 @@ main {
 	text-align: center;
 }
 /********************* GALLERY NEI VIAGGI *********************/
-ul img {
-	width: 50%;
+#viaggi {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#viaggi img {
+	width: 100%;
 	max-width: 400px;
 }
-#viaggi ul {
-	background-color: #df9fbf;
-	padding:0;
+.uk {
+	padding: 15px;
 }
-
-#viaggi li {
-	list-style-type: none;
-	padding: 6px 6px 6px 6px;
-	display: inline-block;
+#viaggi p {
+	color: black;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+#viaggi .item {
+	float: left;
+	padding: 8px;
+	width: 50%;
+}
+#viaggi a{
+	text-decoration: none;
+}
+#viaggi .item:hover {
+	background-color: #ecc6d9;
+}
+#viaggi .item:nth-child(2n) {
+	clear: left;
+}
+.clearfix::after {
+	content:"";
+	clear: both;
+	display: table;
 }
 /********************  GALLERY NELLA HOME ********************/
-
+.container-g {
+	width: 85%;
+	max width: 700px;
+	margin: 15px auto;
+	text-align: center;
+}
 #gallery img {
 	width: 32%;
 }
