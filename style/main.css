@@ -19,8 +19,9 @@ header img {
 	width: 100%;
 }
 h2 {
+	font-family: 'Sacramento', cursive;
 	color: #df9fbf;
-	font-size: 2rem;
+	font-size: 4.5rem;
 	padding: 6px;
 	background-color: #f2d9e6;
 	margin: 0;
@@ -44,6 +45,9 @@ nav a {
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+.active {
+	text-decoration: underline;
 }
 /*********************** MAIN IN TUTTE ******************/
 main {
@@ -69,6 +73,8 @@ main {
 	padding: 15px;
 }
 #viaggi p {
+	font-family: 'Sacramento', cursive;
+	font-size: 2.5rem;
 	color: black;
 	margin-top: 4px;
 	margin-bottom: 4px;
@@ -84,9 +90,7 @@ main {
 #viaggi .item:hover {
 	background-color: #ecc6d9;
 }
-#viaggi .item:nth-child(2n) {
-	clear: left;
-}
+
 .clearfix::after {
 	content:"";
 	clear: both;
@@ -102,6 +106,10 @@ main {
 #gallery img {
 	width: 32%;
 }
+#gallery img:hover {
+	opacity: .7;
+}
+
 #gallery {
 	margin: 15px 5px 15px 5px;
 }
@@ -114,3 +122,43 @@ main {
 .social a {
 	padding: 8px 10px 8px 10px;
 }
+
+/********************* RESPONSIVE ***********************/
+@media only screen and (min-width: 768px) {
+	#viaggi .item {
+		width: 33.3333%;
+	}	
+	
+	
+}
+
+@media only screen and (max-width: 767px) {
+	#viaggi .item:nth-child(2n) {
+	clear: left;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
